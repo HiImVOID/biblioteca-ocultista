@@ -13,7 +13,6 @@ export default function Sobre() {
                     <br />
                     <br />
                     <br />
-
                 </Row>
                 <Row>
                     <Col>

@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap"
+import Image from "next/image"
 
 export default function OitoLicoesDeAlquimia() {
     return (<>
@@ -7,6 +8,11 @@ export default function OitoLicoesDeAlquimia() {
                 <Row>
                     <Col>
                         <h1>8 Lições de Alquimia</h1>
+                        <Image
+                            src="/img/0.png"
+                            height={400}
+                            width={400}
+                        />
                         <h5>Por Mark Stavish</h5>
                         <p>
                             A sabedoria só é adquirida através da experiência e da reflexão
