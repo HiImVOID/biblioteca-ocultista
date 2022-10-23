@@ -38,14 +38,14 @@ export default function Contato() {
                     <Row>
                         <Col>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Label aria-expanded='5'>Titulo</Form.Label>
+                                <Form.Label aria-expanded='1'>Titulo</Form.Label>
                                 <Form.Control type="text" placeholder="Insira o titulo." />
                             </Form.Group>
                         </Col>
                     </Row>
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Label aria-expanded='5'>Conteudo</Form.Label>
+                        <Form.Label aria-expanded='1'>Conteudo</Form.Label>
                         <Form.Control type="text" placeholder="Insira seu conteudo." />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicCheckbox">

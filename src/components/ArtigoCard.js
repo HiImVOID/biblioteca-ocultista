@@ -9,7 +9,7 @@ export default function ArtigoCard() {
                 <Card.Title>Artigo sobre algo...</Card.Title>
                 <Card.Text>
                     O Caibalion, publicado em 1908 pela Yogi Publication Society sob o pseudônimo
-                    de "os Três Iniciados",
+                    de &quot;os Três Iniciados &quot;
                 </Card.Text>
                 <Button variant="primary">Continue lendo</Button>
             </Card.Body>

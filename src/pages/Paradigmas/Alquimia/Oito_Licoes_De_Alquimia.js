@@ -8,12 +8,19 @@ export default function OitoLicoesDeAlquimia() {
                 <Row>
                     <Col>
                         <h1>8 Lições de Alquimia</h1>
-                        <Image
-                            src="/img/0.png"
-                            height={400}
-                            width={400}
-                        />
-                        <h5>Por Mark Stavish</h5>
+                        <Container display="flex" justifyContent="center">
+                            <Row>
+                                <Col>
+                                    <Image
+                                        src="/img/0.png"
+                                        height={400}
+                                        width={400}
+                                        alt="Alquimia Photo"
+                                    />
+                                </Col>
+                            </Row>
+                        </Container>
+                        <h5 style={{ display: "flex", justifyContent: "center" }}>Por Mark Stavish</h5>
                         <p>
                             A sabedoria só é adquirida através da experiência e da reflexão
                             sobre essa experiência, que tira as lições que ela tem a oferecer.
@@ -42,7 +49,7 @@ export default function OitoLicoesDeAlquimia() {
                             de outras artes e ciências ocultas para entender o caminho que
                             escolheram e seu potencial.
                         </p>
-                        <h4>Lições Aprendidas</h4>
+                        <h4 style={{ display: "flex", justifyContent: "center" }}>Lições Aprendidas</h4>
                         <p>
                             Muitos acharam o estudo da alquimia particularmente gratificante, primeiro
                             por causa do tipo de retorno que se obtém por seu investimento de tempo, e

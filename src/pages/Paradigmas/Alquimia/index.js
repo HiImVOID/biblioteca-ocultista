@@ -1,6 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import ProdutosRelacionados from '../../../components/ProdutosRelacionados'
-import { Container } from 'react-bootstrap';
+import { Container, Card, Button } from 'react-bootstrap';
 import ArtigoCard from '../../../components/ArtigoCard';
 import UltimosArtigos from '../../../components/UltimosArtigos';
 
@@ -77,10 +77,23 @@ export default function Alquimia() {
 
 
             </Container>
-            <Container>
-                <UltimosArtigos />
-
-            </Container>
+            <section>
+                <Container>
+                    <h4> UltimosArtigos</h4>
+                    <br />
+                    <Card style={{ width: '14rem', marginBottom: '10px', marginTop: '10px' }}>
+                        <Card.Img variant="top" src="/img/1.jpg" />
+                        <Card.Body>
+                            <Card.Title>8 Lições de alquimia</Card.Title>
+                            <Card.Text>
+                                A sabedoria só é adquirida através da experiência e da reflexão
+                                sobre essa experiência ...
+                            </Card.Text>
+                            <Button href="/Paradigmas/Alquimia/Oito_Licoes_De_Alquimia" variant="primary">Continue lendo</Button>
+                        </Card.Body>
+                    </Card>
+                </Container>
+            </section>
             <ProdutosRelacionados />
         </section>
     </>)

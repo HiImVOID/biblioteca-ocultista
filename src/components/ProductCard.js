@@ -9,7 +9,7 @@ export default function ProductCard() {
         <Card.Title>O Caibalion</Card.Title>
         <Card.Text>
           O Caibalion, publicado em 1908 pela Yogi Publication Society sob o pseudônimo
-          de "os Três Iniciados",
+          de &quot;os Três Iniciados&quot;,
         </Card.Text>
         <Button variant="primary">Comprar</Button>
       </Card.Body>
